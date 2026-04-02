@@ -1,0 +1,3065 @@
+{
+  "empresas": [
+    {
+      "empresa": {
+        "nombre": "Telefónica",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Málaga",
+            "edificio": {
+              "nombre": "Parque Empresarial",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 101,
+                              "nombre": "Jorge Molina",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 102,
+                              "nombre": "Ez Abde",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Edificio Horizonte",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 103,
+                              "nombre": "Pablo García",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 104,
+                              "nombre": "Jose Antonio Morante",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Indra",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Madrid",
+            "edificio": {
+              "nombre": "Campus Tecnológico",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 105,
+                              "nombre": "Lucas Pérez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 106,
+                              "nombre": "Ángel Ortiz",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 107,
+                              "nombre": "Álvaro Morata",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 108,
+                              "nombre": "Mikel Oyarzabal",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Centro Corporativo",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 109,
+                              "nombre": "Unai Simón",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 110,
+                              "nombre": "Robert Sánchez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Santander",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Torre Innovacion",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 111,
+                              "nombre": "Marc Cucurella",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 112,
+                              "nombre": "Xavi Hernándex",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 113,
+                              "nombre": "Sergio Ramos",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 114,
+                              "nombre": "Iker Casillas",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 115,
+                              "nombre": "Gerard Piqué",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 116,
+                              "nombre": "Carles Puyol",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Campus Tecnologico",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 117,
+                              "nombre": "Andrés Iniesta",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 118,
+                              "nombre": "Jesús Navas",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 119,
+                              "nombre": "Joan Capdevilla",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 120,
+                              "nombre": "Alvaro Arbeloa",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "BBVA",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Valencia",
+            "edificio": {
+              "nombre": "Centro Corporativo",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 121,
+                              "nombre": "Sergio Busquets",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 122,
+                              "nombre": "Xabi Alonso",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 123,
+                              "nombre": "Santi Cazorla",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 124,
+                              "nombre": "David Silva",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 125,
+                              "nombre": "Juan Mata",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 126,
+                              "nombre": "Fernando Torres",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 127,
+                              "nombre": "Pedro Rodriguez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 128,
+                              "nombre": "David Villa",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Centro Corporativo",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 129,
+                              "nombre": "Dani Ceballos",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 130,
+                              "nombre": "Fabian Ruiz",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 131,
+                              "nombre": "Alvaro Valles",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 132,
+                              "nombre": "Rober Gonzalez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 133,
+                              "nombre": "Alvaro Vadillo",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 134,
+                              "nombre": "Beñat Echaverria",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Repsol",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Barcelona",
+            "edificio": {
+              "nombre": "Parque Empresarial",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 135,
+                              "nombre": "Gavi",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 136,
+                              "nombre": "Pedri",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 137,
+                              "nombre": "Ferran Torres",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 138,
+                              "nombre": "Marc Bernal",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 139,
+                              "nombre": "Pau Cubarsí",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 140,
+                              "nombre": "Joan García",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Valencia",
+            "edificio": {
+              "nombre": "Torre Innovacion",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 141,
+                              "nombre": "Fermín Lopez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 142,
+                              "nombre": "Marc Casadó",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 143,
+                              "nombre": "Pau Victor",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 144,
+                              "nombre": "Daniel Carvajal",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 145,
+                              "nombre": "Nacho",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Iberdrola",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Madrid",
+            "edificio": {
+              "nombre": "Edificio Horizonte",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 146,
+                              "nombre": "Deigo Lopez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 147,
+                              "nombre": "Dani Pacheco",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 148,
+                              "nombre": "Victor Valdés",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 149,
+                              "nombre": "Guti",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 150,
+                              "nombre": "Esteban Granero",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 151,
+                              "nombre": "Sergio Canales",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 152,
+                              "nombre": "Pedro León",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 153,
+                              "nombre": "Fran García",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Edificio Horizonte",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 154,
+                              "nombre": "Brahim Díaz",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 155,
+                              "nombre": "Gonzalo García",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 156,
+                              "nombre": "Axier Illamarramendi",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 157,
+                              "nombre": "Mosquera",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 158,
+                              "nombre": "Grimaldo",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 159,
+                              "nombre": "Pedro Porro",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Acciona",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Valencia",
+            "edificio": {
+              "nombre": "Campus Tecnologico",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 160,
+                              "nombre": "Marcos Llorente",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 161,
+                              "nombre": "Koke Resurrección",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 162,
+                              "nombre": "Marc Pubill",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 163,
+                              "nombre": "Guido Rodriguez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Barcelona",
+            "edificio": {
+              "nombre": "Torre Central",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 164,
+                              "nombre": "Ricardo Rodriguez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 165,
+                              "nombre": "Junior Firpo",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 166,
+                              "nombre": "Julián Alvarez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Ferrovial",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Bilbao",
+            "edificio": {
+              "nombre": "Parque Empresarial",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 167,
+                              "nombre": "Lionel Messi",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 168,
+                              "nombre": "Cristiano Ronaldo",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 169,
+                              "nombre": "Luis Figo",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 170,
+                              "nombre": "Gabi",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 171,
+                              "nombre": "Tiago Almada",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 172,
+                              "nombre": "Ángel Di Maria",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Barcelona",
+            "edificio": {
+              "nombre": "Campus Tecnologico",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 173,
+                              "nombre": "Sofyan Amrrabat",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 174,
+                              "nombre": "Isco",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 175,
+                              "nombre": "Cucho Hernández",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 176,
+                              "nombre": "Antony",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Mapfre",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Bilbao",
+            "edificio": {
+              "nombre": "Campus Tecnologico",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 177,
+                              "nombre": "Chimy Ávila",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 178,
+                              "nombre": "Adrián San Miguel",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 179,
+                              "nombre": "Valentín Gómez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 180,
+                              "nombre": "Diego Llorente",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Barcelona",
+            "edificio": {
+              "nombre": "Torre Central",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 181,
+                              "nombre": "Giovani Lo Celso",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 182,
+                              "nombre": "Cedrik Bakambu",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 183,
+                              "nombre": "Rodrigo Riquelme",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Amadeus",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "España",
+            "ciudad": "Sevilla",
+            "edificio": {
+              "nombre": "Parque Empresarial",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 184,
+                              "nombre": "Joan Verdú",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 185,
+                              "nombre": "Jose Anotonio Cañas",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 186,
+                              "nombre": "Chuli",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 187,
+                              "nombre": "Juanfran",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 188,
+                              "nombre": "Nacho",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 189,
+                              "nombre": "Chica",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Bilbao",
+            "edificio": {
+              "nombre": "Parque Empresarial",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 190,
+                              "nombre": "Jordi Amat",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 191,
+                              "nombre": "Amaya",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 192,
+                              "nombre": "Fali",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 193,
+                              "nombre": "Ontiveros",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Airbus",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "Francia",
+            "ciudad": "Tolouse",
+            "edificio": {
+              "nombre": "Le Capitole",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 194,
+                              "nombre": "Pablo Fornals",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 195,
+                              "nombre": "Kylian Mbappe",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 196,
+                              "nombre": "Osmanne Demebele",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 197,
+                              "nombre": "Karim Benzema",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 198,
+                              "nombre": "Lucas Hernandez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 199,
+                              "nombre": "Adrien Rabiot",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 200,
+                              "nombre": "Marcus Thuram",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 201,
+                              "nombre": "Dayot Upamecano",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Valencia",
+            "edificio": {
+              "nombre": "Campus Tecnologico",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 202,
+                              "nombre": "Ibrahima Konate",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 203,
+                              "nombre": "Theo Hernandez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 204,
+                              "nombre": "Iñaki Williams",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 205,
+                              "nombre": "Nico Williams",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 206,
+                              "nombre": "Rafa Nadal",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 207,
+                              "nombre": "Fernando Alonso",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    },
+    {
+      "empresa": {
+        "nombre": "Siemens",
+        "sector": "Sector",
+        "sedes": [
+          {
+            "pais": "Alemania",
+            "ciudad": "Munich",
+            "edificio": {
+              "nombre": "Neues Rathaus",
+              "plantas": [
+                {
+                  "numero": 1,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 208,
+                              "nombre": "Thomas Muller",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 209,
+                              "nombre": "Lothar Mattaus",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 210,
+                              "nombre": "Mario Gotze",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 211,
+                              "nombre": "Kei Havertz",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 212,
+                              "nombre": "Jamal Musiala",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 213,
+                              "nombre": "Manuel Neuer",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "IT",
+                      "equipos": [
+                        {
+                          "nombre": "Infra",
+                          "miembros": [
+                            {
+                              "id": 214,
+                              "nombre": "Heiko Westermann",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 215,
+                              "nombre": "Florian Wirtz",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 216,
+                              "nombre": "Karim Adeyemi",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 217,
+                              "nombre": "Nick Woltemade",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pais": "España",
+            "ciudad": "Barcelona",
+            "edificio": {
+              "nombre": "Edificio Horizonte",
+              "plantas": [
+                {
+                  "numero": 2,
+                  "departamentos": [
+                    {
+                      "nombre": "SOC",
+                      "equipos": [
+                        {
+                          "nombre": "Blue Team",
+                          "miembros": [
+                            {
+                              "id": 218,
+                              "nombre": "David Raya",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 219,
+                              "nombre": "Marc Bartra",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 220,
+                              "nombre": "Sergi Altimira",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 221,
+                              "nombre": "Marc Roca",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 222,
+                              "nombre": "Pau Lopez",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "nombre": "Dev",
+                      "equipos": [
+                        {
+                          "nombre": "Backend",
+                          "miembros": [
+                            {
+                              "id": 223,
+                              "nombre": "Hector Bellerin",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 224,
+                              "nombre": "Antonio Adán",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            },
+                            {
+                              "id": 225,
+                              "nombre": "Rubén Castro",
+                              "rol": "Analista",
+                              "habilidades": {
+                                "siem": [
+                                  "Wazuh"
+                                ],
+                                "soar": [
+                                  "TheHive"
+                                ],
+                                "forense": {
+                                  "memoria": true,
+                                  "disco": true
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "infraestructura": {},
+      "politicas": {}
+    }
+  ]
+}
