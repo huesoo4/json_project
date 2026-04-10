@@ -48,3 +48,21 @@ def empresa_sector_pais(datos):
         pais_emp = emp['empresa']['sedes'][0]['pais'] 
         if sector_emp == sector and pais_emp == pais:
             print('La empresa ', empresa, ' trabaja en el sector ', sector, ' en el país ', pais)
+
+def empresa_hostname(datos):
+    hostname = input('Ingrese el hostname: ')
+    
+    for emp in datos['empresas']:
+        if 'infraestructura' in emp and 'servidores' in emp['infraestructura'] and 'wazuh' in emp['infraestructura']['servidores']:
+            wazuh = emp['infraestructura']['servidores']['wazuh']
+            
+            if 'managers' in wazuh:
+                for manager in wazuh['managers']:
+                    if manager['hostname'] == hostname:
+                        empresa = emp['empresa']
+                        sede = empresa['sedes'][0]
+                        print('- La empresa a la que pertenece:', empresa['nombre'])
+                        print('- El sector:', empresa['sector'])
+                        print('- El país:', sede['pais'])
+                        print('- La ciudad:', sede['ciudad'])
+                        print('- El nombre del edificio principal:', sede['edificio']['nombre'])
