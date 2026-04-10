@@ -3,7 +3,7 @@
     {
       "empresa": {
         "nombre": "Telefónica",
-        "sector": "Sector",
+        "sector": "Telecomunicaciones",
         "sedes": [
           {
             "pais": "España",
@@ -143,13 +143,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "telefonicamanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "telefonicamanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "telefonicamanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "telefonicadashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Indra",
-        "sector": "Sector",
+        "sector": "Tecnología y consultoría",
         "sedes": [
           {
             "pais": "España",
@@ -323,13 +390,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "indramanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "indramanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "indramanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "indradashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Santander",
-        "sector": "Sector",
+        "sector": "Banca y servicios financieros",
         "sedes": [
           {
             "pais": "España",
@@ -571,13 +705,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "santandermanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "santandermanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "santandermanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "santanderdashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "BBVA",
-        "sector": "Sector",
+        "sector": "Banca y servicios financieros",
         "sedes": [
           {
             "pais": "España",
@@ -887,13 +1088,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "bbvamanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "bbvamanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "bbvamanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "bbvadashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Repsol",
-        "sector": "Sector",
+        "sector": "Enegía",
         "sedes": [
           {
             "pais": "España",
@@ -1152,13 +1420,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "repsolmanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "repsolmanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "repsolmanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "repsoldashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Iberdrola",
-        "sector": "Sector",
+        "sector": "Energía",
         "sedes": [
           {
             "pais": "España",
@@ -1468,13 +1803,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "iberdrolamanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "iberdrolamanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "iberdrolamanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "iberdroladashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Acciona",
-        "sector": "Sector",
+        "sector": "Infrastucturas",
         "sedes": [
           {
             "pais": "España",
@@ -1665,13 +2067,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "accionamanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "accionamanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "accionamanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "accionadashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Ferrovial",
-        "sector": "Sector",
+        "sector": "Infrastucturas",
         "sedes": [
           {
             "pais": "España",
@@ -1913,13 +2382,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "ferrovialmanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "ferrovialmanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "ferrovialmanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "ferrovialdashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Mapfre",
-        "sector": "Sector",
+        "sector": "Seguros",
         "sedes": [
           {
             "pais": "España",
@@ -2110,13 +2646,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "mapfremanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "mapfremanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "mapfremanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "mapfredashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Amadeus",
-        "sector": "Sector",
+        "sector": "Turismo",
         "sedes": [
           {
             "pais": "España",
@@ -2358,13 +2961,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "amadeusmanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "amadeusmanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "amadeusmanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "amadeusdashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Airbus",
-        "sector": "Sector",
+        "sector": "Aeroespacial",
         "sedes": [
           {
             "pais": "Francia",
@@ -2674,13 +3344,80 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "airbusmanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "airbusmanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "airbusmanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "airbusdashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     },
     {
       "empresa": {
         "nombre": "Siemens",
-        "sector": "Sector",
+        "sector": "Tecnología y consultoría",
         "sedes": [
           {
             "pais": "Alemania",
@@ -3058,8 +3795,75 @@
           }
         ]
       },
-      "infraestructura": {},
-      "politicas": {}
+      "infraestructura": {
+        "servidores": {
+          "wazuh": {
+            "managers": [
+              {
+                "hostname": "siemensmanager1",
+                "ip": "172.20.12.10"
+              },
+              {
+                "hostname": "siemensmanager2",
+                "ip": "172.20.14.10"
+              },
+              {
+                "hostname": "siemensmanager3",
+                "ip": "172.20.16.10"
+              }
+            ],
+            "dashboard": {
+              "hostname": "siemensdashboard1",
+              "ip": "172.20.10.10",
+              "servicios": {
+                "ui": true,
+                "api": true,
+                "ssl": {
+                  "habilitado": true,
+                  "versiones": [
+                    "TLS1.2",
+                    "TLS1.3"
+                  ]
+                }
+              }
+            }
+          },
+          "automatizacion": {
+            "n8n": {
+              "workflows": [
+                {
+                  "nombre": "Analisis de malware",
+                  "pasos": [
+                    "Webhook",
+                    "Consulta VirusTotal",
+                    "Crear IOC en MISP",
+                    "Crear caso en TheHive"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "politicas": {
+        "retencion_logs_dias": 180,
+        "clasificacion": {
+          "niveles": [
+            {
+              "codigo": "PUB",
+              "descripcion": "Público"
+            },
+            {
+              "codigo": "INT",
+              "descripcion": "Interno"
+            },
+            {
+              "codigo": "RES",
+              "descripcion": "Restringido"
+            }
+          ]
+        }
+      }
     }
   ]
 }
