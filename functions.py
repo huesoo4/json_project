@@ -38,4 +38,13 @@ def total_empresas_emp_soc(datos):
         print('La empresa ', nombre, ' tiene ', total_miembros, 'trabajadores en el SOC')
         
 
-
+def empresa_sector_pais(datos):
+    sector = input('Ingrese el sector: ')
+    pais = input('Ingrese el país: ')
+    
+    for emp in datos['empresas']:
+        empresa = emp['empresa']['nombre']
+        sector_emp = emp['empresa']['sector']
+        pais_emp = emp['empresa']['sedes'][0]['pais'] 
+        if sector_emp == sector and pais_emp == pais:
+            print('La empresa ', empresa, ' trabaja en el sector ', sector, ' en el país ', pais)
