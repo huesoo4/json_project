@@ -1,11 +1,11 @@
 # json_project
 
 
-Descripción
+# Descripción
 
 Este proyecto consiste en una aplicación en Python que permite gestionar y consultar información sobre empresas, sus sedes, empleados y herramientas utilizadas en entornos SOC (Security Operations Center), a partir de un archivo JSON.
 
-#El sistema permite realizar diferentes consultas como:
+# El sistema permite realizar diferentes consultas como:
 
 Listado de empresas
 Número de empleados SOC
@@ -14,7 +14,7 @@ Búsqueda por hostname
 Filtrado por herramientas (ej: Wazuh, TheHive
 
 
-#Estructura del archivo.json
+# Estructura del archivo.json
 
 El archivo empresas.json contiene una estructura jerárquica compleja que representa empresas con múltiples niveles organizativos.
 
