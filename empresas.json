@@ -25,9 +25,6 @@
                               "nombre": "Jorge Molina",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -52,9 +49,6 @@
                               "nombre": "Ez Abde",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -96,9 +90,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -122,9 +113,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -238,9 +226,6 @@
                               "nombre": "Lucas Pérez",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -255,9 +240,6 @@
                               "nombre": "Ángel Ortiz",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -285,9 +267,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -299,9 +278,6 @@
                               "nombre": "Mikel Oyarzabal",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -340,9 +316,6 @@
                               "nombre": "Unai Simón",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -367,9 +340,6 @@
                               "nombre": "Robert Sánchez",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -488,9 +458,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -502,9 +469,6 @@
                               "nombre": "Xavi Hernándex",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -519,9 +483,6 @@
                               "nombre": "Sergio Ramos",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -549,9 +510,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -566,9 +524,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -582,9 +537,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -621,9 +573,6 @@
                               "nombre": "Andrés Iniesta",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -638,9 +587,6 @@
                               "nombre": "Jesús Navas",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -668,9 +614,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -684,9 +627,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -800,9 +740,6 @@
                               "nombre": "Sergio Busquets",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -817,9 +754,6 @@
                               "nombre": "Xabi Alonso",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -834,9 +768,6 @@
                               "nombre": "Santi Cazorla",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -853,9 +784,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -881,9 +809,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -895,9 +820,6 @@
                               "nombre": "Fernando Torres",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -912,9 +834,6 @@
                               "nombre": "Pedro Rodriguez",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -929,9 +848,6 @@
                               "nombre": "David Villa",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -970,9 +886,6 @@
                               "nombre": "Dani Ceballos",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -987,9 +900,6 @@
                               "nombre": "Fabian Ruiz",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1006,9 +916,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -1034,9 +941,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1048,9 +952,6 @@
                               "nombre": "Alvaro Vadillo",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1065,9 +966,6 @@
                               "nombre": "Beñat Echaverria",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1183,9 +1081,6 @@
                               "nombre": "Gavi",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1200,9 +1095,6 @@
                               "nombre": "Pedri",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1217,9 +1109,6 @@
                               "nombre": "Ferran Torres",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1234,9 +1123,6 @@
                               "nombre": "Marc Bernal",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1251,9 +1137,6 @@
                               "nombre": "Pau Cubarsí",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1278,12 +1161,6 @@
                               "nombre": "Joan García",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1319,9 +1196,6 @@
                               "nombre": "Fermín Lopez",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1336,12 +1210,6 @@
                               "nombre": "Marc Casadó",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1353,12 +1221,6 @@
                               "nombre": "Pau Victor",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1372,9 +1234,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -1397,12 +1256,6 @@
                               "nombre": "Nacho",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1518,9 +1371,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1532,9 +1382,6 @@
                               "nombre": "Dani Pacheco",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1549,12 +1396,6 @@
                               "nombre": "Victor Valdés",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1566,9 +1407,6 @@
                               "nombre": "Guti",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1583,12 +1421,6 @@
                               "nombre": "Esteban Granero",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1599,10 +1431,7 @@
                               "id": 151,
                               "nombre": "Sergio Canales",
                               "rol": "Analista",
-                              "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
+                              "habilidades": { 
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1630,9 +1459,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1644,12 +1470,6 @@
                               "nombre": "Fran García",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1688,9 +1508,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -1702,9 +1519,6 @@
                               "nombre": "Gonzalo García",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -1719,12 +1533,6 @@
                               "nombre": "Axier Illamarramendi",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2257,12 +2065,6 @@
                               "nombre": "Ángel Di Maria",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2298,12 +2100,6 @@
                               "nombre": "Sofyan Amrrabat",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2325,9 +2121,6 @@
                               "nombre": "Isco",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -2342,9 +2135,6 @@
                               "nombre": "Cucho Hernández",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -2359,12 +2149,6 @@
                               "nombre": "Antony",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2477,9 +2261,6 @@
                               "nombre": "Chimy Ávila",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -2494,9 +2275,6 @@
                               "nombre": "Adrián San Miguel",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -2513,9 +2291,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -2540,9 +2315,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -2596,12 +2368,6 @@
                               "nombre": "Cedrik Bakambu",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2625,9 +2391,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -2744,9 +2507,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2758,12 +2518,6 @@
                               "nombre": "Jose Anotonio Cañas",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -2775,9 +2529,6 @@
                               "nombre": "Chuli",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -2819,12 +2570,6 @@
                               "nombre": "Nacho",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3168,12 +2913,6 @@
                               "nombre": "Marcus Thuram",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3185,12 +2924,6 @@
                               "nombre": "Dayot Upamecano",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3246,9 +2979,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3263,9 +2993,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3279,9 +3006,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -3304,12 +3028,6 @@
                               "nombre": "Rafa Nadal",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3321,12 +3039,6 @@
                               "nombre": "Fernando Alonso",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3439,9 +3151,6 @@
                               "nombre": "Thomas Muller",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
                                 "soar": [
                                   "TheHive"
                                 ],
@@ -3459,9 +3168,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3476,9 +3182,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3490,12 +3193,6 @@
                               "nombre": "Kei Havertz",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3510,9 +3207,6 @@
                                 "siem": [
                                   "Wazuh"
                                 ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
@@ -3526,9 +3220,6 @@
                               "habilidades": {
                                 "siem": [
                                   "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
                                 ],
                                 "forense": {
                                   "memoria": true,
@@ -3551,12 +3242,6 @@
                               "nombre": "Heiko Westermann",
                               "rol": "Analista",
                               "habilidades": {
-                                "siem": [
-                                  "Wazuh"
-                                ],
-                                "soar": [
-                                  "TheHive"
-                                ],
                                 "forense": {
                                   "memoria": true,
                                   "disco": true
